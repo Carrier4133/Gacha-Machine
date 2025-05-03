@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gachapon Machine</title>
+		<link rel="stylesheet" href="css/Gacha Machine.css" />
+	</head>
+	<body>
+		<pre id="debug" style="white-space: pre-wrap; font-family: monospace;">Script didn't run.</pre>
+		<div id="app">
+			<h1>Gachapon Machine</h1>
+
+			<div class="button-section">
+				<button id="pull-button">Pull Item</button>
+				<input
+					type="number"
+					id="multi-pull-count"
+					placeholder="Number of pulls"
+					min="1"
+				/>
+				<button id="multi-pull-button">Pull Multiple</button>
+			</div>
+	<pre id="debug" style="white-space: pre-wrap; font-family: monospace;"></pre>
+
+			<div id="random-item">
+				<h2>Item Pulled:</h2>
+				<img
+					id="item-image"
+					src=""
+					alt="Item Image"
+					style="display: none;"
+				/>
+				<p id="item-name"></p>
+				<p id="item-description"></p>
+			</div>
+
+			<div class="history">
+				<h2>Pull History</h2>
+				<ul id="history-list"></ul>
+			</div>
+
+			<div class="collection">
+				<h2>
+					Your Collection (
+					<span id="collection-count">0</span>
+					items)
+				</h2>
+				<ul id="collection-list"></ul>
+			</div>
+		</div>
+
+		<script src="js/Gacha Machine.js" defer>
+  document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("debug").textContent = "If you see this, the debug area is working.";
+  });
+</script>
+	</body>
+</html>
