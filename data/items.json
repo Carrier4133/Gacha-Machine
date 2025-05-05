@@ -1,0 +1,122 @@
+[
+  {
+    "id": "item1",
+    "label": "Devilsknife",
+    "categories": ["Weapons", "Deltarune"],
+    "elements":{
+        "names": ["Devilsknife"],
+        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/devilsknife.png", "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/devilsknife_red.png"],
+        "descriptions": ["Skull-emblazoned scythe-ax. Reduces Rudebuster's cost by 10", "It's called a knife, looks like a scythe but is apparently an axe... why? Because he can do anything probably"]
+      }
+  },
+  {
+    "id": "item2",
+    "label": "Mystery Item",
+    "categories": ["Mystery"],
+    "elements": {
+        "names": ["Mystery Item"],
+        "images": ["images/mystery_item.png"],
+        "descriptions": ["An enigmatic item whose effects are unknown..."]
+      }
+  },
+  {
+    "id": "item3",
+    "label": "Screwball Scramble Levels 1 & 2",
+    "categories": ["Board Games"],
+    "elements": {
+        "names": ["Screwball Scramble Levels 1 & 2"],
+        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002578.png"],
+        "descriptions": ["Can you get the ball to the bell in time!?"]
+      }
+  },
+  {
+    "id": "item4",
+    "label": "[CENSORED]",
+    "categories": ["Mystery"],
+    "elements": {
+        "names": ["[CENSORED]"],
+        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/CENSOREDPortrait_1.png"],
+        "descriptions": ["\"... What... even is that thing... oh no. OH NO-\""]
+      }
+  },
+  {
+    "id": "item5",
+    "label": "Hatsune Miku",
+    "categories": ["Vocaloid"],
+    "elements": {
+        "names": ["Hatsune Miku"],
+        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002573.png"],
+        "descriptions": ["HOLY FUCKING SHIT IT'S HATSUNE MIKU"]
+      }
+  },
+  {
+    "id": "item6",
+    "label": "Jimbo",
+    "categories": ["Joker"],
+    "elements": {
+        "names": ["Jimbo"],
+        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002574.png"],
+        "descriptions": ["\"I'm literally a fool, what's your excuse?\"", "+4 Mult"]
+      }
+  },
+  {
+    "id": "item7",
+    "label": "Cardboard Box",
+    "categories": ["Packaging"],
+    "elements": {
+        "names": ["Cardboard Box"],
+        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002583.jpg"],
+        "descriptions": ["Just a box.","The last word in infiltration technology."]
+      }
+  },
+  {
+    "id": "item8",
+    "label": "THE UNMATCHED POWER OF THE SUN",
+    "categories": ["Celestial Body"],
+    "elements": {
+        "names": ["THE UNMATCHED POWER OF THE SUN"],
+        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/images_28729.jpg"],
+        "descriptions": ["What's that bottle?"]
+      }
+  },
+  {
+    "id": "item9",
+    "label": "Cat",
+    "categories": ["Animal"],
+    "elements":{
+        "names": ["Cat"],
+        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/Cat_August_2010-4.jpg"],
+        "descriptions": "Daww..."
+      }
+  },
+  {
+    "id": "item10",
+    "label": "Chicken Jockey",
+    "categories": ["Minecraft"],
+    "elements": {
+        "names": ["Chicken Jockey"],
+        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/Chicken_Jockey.png"],
+        "descriptions": ["And the crowd goes wild!"]
+      }
+  },
+  {
+    "id": "item11",
+    "label": "Carpet",
+    "categories": ["Furniture"],
+    "elements": {
+        "names": ["Carpet"],
+        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002553.jpg"],
+        "descriptions": ["CHECK IT OUT I'M IN THE HOUSE LIKE CARPET-"]
+      }
+},
+{
+        "id": "item12",
+	"label": "Dehydrated Water",
+	"categories": ["Useless", "Not Actually Useless"],
+	"elements":{
+		"names": ["Dehydrated Water"],
+		"images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002602.jpg"],
+		"descriptions": ["Come on. Just follow the instructions! It's just a can of dehydrated water! What's so hard to understand?"]
+	}
+}
+]
