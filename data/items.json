@@ -86,7 +86,7 @@
     "elements":{
         "names": ["Cat"],
         "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/Cat_August_2010-4.jpg"],
-        "descriptions": "Daww..."
+        "descriptions": ["Daww..."]
       }
   },
   {
