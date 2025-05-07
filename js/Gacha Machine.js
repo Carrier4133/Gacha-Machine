@@ -1,188 +1,165 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const dbg = document.getElementById("debug");
-  if (dbg) dbg.textContent = "Script ran.";
-});
+let items = [];
+let collection = new Set();
+let history = [];
 
-document.addEventListener("DOMContentLoaded", () => {
-  const dbg = document.getElementById("debug");
-  if (dbg) dbg.textContent += "Top-level debug hook triggered.\n";
-});
-
-// // Refactored Gacha Machine JavaScript with Set-based discovery tracking
-
-const discoveredItems = {}; // Tracks discovery for each item by id
-let items = []; // This will be filled via fetch from JSON
+function logDebug(message) {
+  const debug = document.getElementById("debug");
+  if (debug) debug.textContent = message;
+}
 
 function initializeDiscovery(item) {
-  if (!discoveredItems[item.id]) {
-    discoveredItems[item.id] = item.parts.map(() => new Set());
-  }
+  const names = item.elements[0].names;
+  const images = item.elements[0].images;
+  const descriptions = item.elements[0].descriptions;
+
+  return {
+    nameIndex: Math.floor(Math.random() * names.length),
+    imageIndex: Math.floor(Math.random() * images.length),
+    descIndex: Math.floor(Math.random() * descriptions.length)
+  };
 }
 
-function addToDiscovered(itemId, partIndex, field) {
-  discoveredItems[itemId][partIndex].add(field);
+function displayItem(item, indices) {
+  console.log("Displaying item with indices:", indices);
+  const container = document.getElementById("item-container");
+  container.innerHTML = '';
+
+  const img = document.createElement("img");
+  img.src = item.elements[0].images[indices.imageIndex];
+  img.alt = item.elements[0].names[indices.nameIndex];
+  img.style.maxWidth = "300px";
+  img.onerror = () => {
+    console.error("Failed to load image:", img.src);
+    img.src = "https://via.placeholder.com/300x300?text=Image+Not+Found";
+  };
+
+  const name = document.createElement("p");
+  name.textContent = item.elements[0].names[indices.nameIndex];
+
+  const desc = document.createElement("p");
+  const description = Array.isArray(item.elements[0].descriptions)
+    ? item.elements[0].descriptions[indices.descIndex]
+    : item.elements[0].descriptions;
+  desc.textContent = description;
+
+  container.appendChild(img);
+  container.appendChild(name);
+  container.appendChild(desc);
 }
 
-function isFieldDiscovered(itemId, partIndex, field) {
-  return discoveredItems[itemId]?.[partIndex]?.has(field);
-}
+function updateHistory(item, indices) {
+  console.log("Updating history with:", item);
+  const historyItem = {
+    name: item.elements[0].names[indices.nameIndex],
+    image: item.elements[0].images[indices.imageIndex],
+    description: item.elements[0].descriptions[indices.descIndex]
+  };
 
-function displayItemPulled(item) {
-  initializeDiscovery(item);
+  history.unshift(historyItem);
 
-  let isFirstDiscovery = !document.getElementById(`collection-${item.id}`);
+  const historyList = document.getElementById("history-list");
+  const li = document.createElement("li");
 
-  const container = document.getElementById("random-item");
-  const categories = Array.isArray(item.categories) ? item.categories.join(", ") : item.category || "Misc";
-  container.innerHTML = `<h2>${item.label}</h2><p><em>Categories: ${categories}</em></p><div class="item-parts"></div>`;
-  const partsContainer = container.querySelector(".item-parts");
+  const img = document.createElement("img");
+  img.src = historyItem.image;
+  img.alt = historyItem.name;
+  img.style.maxWidth = "100px";
 
-  item.parts.forEach((part, index) => {
-    const discovered = discoveredItems[item.id][index];
+  const text = document.createElement("div");
+  text.textContent = `${historyItem.name}: ${historyItem.description}`;
 
-    // Ensure at least one of each type is revealed on first pull
-    if (isFirstDiscovery) {
-      ["name", "image", "description"].forEach(field => discovered.add(field));
-    } else {
-      const fields = ["name", "image", "description"];
-      const pulledField = fields[Math.floor(Math.random() * fields.length)];
-      addToDiscovered(item.id, index, pulledField);
-    }
-
-    const discovered = discoveredItems[item.id][index];
-
-    const partDiv = document.createElement("div");
-    partDiv.classList.add("part");
-
-    const name = discovered.has("name") ? part.name : "???";
-    const desc = discovered.has("description") ? part.description : "???";
-    const imgTag = discovered.has("image")
-      ? `<img src="${part.image}" alt="${part.name}">`
-      : `<img class="hidden" src="" alt="Hidden">`;
-
-    partDiv.innerHTML = `
-      ${imgTag}
-      <div>${name}</div>
-      <div>${desc}</div>
-    `;
-
-    partsContainer.appendChild(partDiv);
-  });
-
-    if (isFirstDiscovery) {
-    const historyList = document.getElementById("history-list");
-    const newEntry = document.createElement("li");
-    newEntry.textContent = `New item discovered: ${item.label}!`;
-    newEntry.style.fontWeight = "bold";
-    historyList.appendChild(newEntry);
-  }
-
-  updateCollection(item);
+  li.appendChild(img);
+  li.appendChild(text);
+  historyList.insertBefore(li, historyList.firstChild);
 }
 
 function updateCollection(item) {
-  const collection = document.querySelector(".collection ul");
-  const entryId = `collection-${item.id}`;
-  let existingEntry = document.getElementById(entryId);
+  if (!collection.has(item.id)) {
+    console.log("Adding item to collection:", item.id);
+    collection.add(item.id);
 
-  if (!existingEntry) {
-    existingEntry = document.createElement("li");
-    existingEntry.id = entryId;
-    collection.appendChild(existingEntry);
+    const collectionList = document.getElementById("collection-list");
+    const li = document.createElement("li");
+
+    const img = document.createElement("img");
+    img.src = item.elements[0].images[0];
+    img.alt = item.elements[0].names[0];
+    img.style.maxWidth = "100px";
+
+    const text = document.createElement("div");
+    text.textContent = item.elements[0].names[0];
+
+    li.appendChild(img);
+    li.appendChild(text);
+    collectionList.appendChild(li);
+
+    document.getElementById("collection-count").textContent = collection.size;
   }
-
-  const nameSection = [];
-  const imageSection = [];
-  const descSection = [];
-
-  item.parts.forEach((part, index) => {
-    const discovered = discoveredItems[item.id][index];
-
-    if (discovered.has("name")) {
-      nameSection.push(`<div>${part.name}</div>`);
-    }
-    if (discovered.has("image")) {
-      imageSection.push(`<img src="${part.image}" alt="${part.name}">`);
-    }
-    if (discovered.has("description")) {
-      descSection.push(`<div>${part.description}</div>`);
-    }
-  });
-
-  const categories = Array.isArray(item.categories) ? item.categories.join(", ") : item.category || "Misc";
-  const html = `
-    <h3>${item.label}</h3>
-    <p><em>Categories: ${categories}</em></p>
-    <div class="part-group names"><strong>Names:</strong> ${nameSection.join(" ")}</div>
-    <div class="part-group images"><strong>Images:</strong> ${imageSection.join(" ")}</div>
-    <div class="part-group descriptions"><strong>Descriptions:</strong> ${descSection.join(" ")}</div>
-  `;
-
-  existingEntry.innerHTML = html;
-
-  // Update collection count
-  document.getElementById("collection-count").textContent = document.querySelectorAll(".collection ul li").length;
 }
 
-// === Fetch items from JSON and setup ===
-logDebug("Script loaded and waiting for DOM...");
-document.addEventListener("DOMContentLoaded", () => {
-  const debug = document.getElementById("debug");
-  function logDebug(message) {
-    if (debug) debug.textContent += message + "";
+function pullItem() {
+  console.log("pullItem() called");
+
+  if (items.length === 0) {
+    console.warn("No items to pull!");
+    return;
   }
-  logDebug("DOMContentLoaded fired");
-  fetch("data/items.json")
-    .then((response) => response.json())
-    .then((data) => {
-      items = data.map((entry, i) => {
-        const parts = [];
-        const maxLen = Math.max(
-          entry.elements?.names?.length || 0,
-          entry.elements?.images?.length || 0,
-          entry.elements?.descriptions?.length || 0
-        );
 
-        for (let j = 0; j < maxLen; j++) {
-          parts.push({
-            name: entry.elements?.names?.[j] || "",
-            image: entry.elements?.images?.[j] || "",
-            description: entry.elements?.descriptions?.[j] || ""
-          });
-        }
+  const randomIndex = Math.floor(Math.random() * items.length);
+  const item = items[randomIndex];
+  const indices = initializeDiscovery(item);
 
-        return {
-          id: entry.id || `item${i + 1}`,
-          label: entry.label || entry.elements?.names?.[0] || `Item ${i + 1}`,
-          parts,
-          categories: Array.isArray(entry.categories) ? entry.categories : [entry.category || "Misc"]
-        };
-      });
-      logDebug("Items loaded: " + items.length);
+  console.log("Pulled item:", item);
+  displayItem(item, indices);
+  updateHistory(item, indices);
+  updateCollection(item);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("DOM fully loaded");
+  logDebug("DOM fully loaded. Starting fetch...");
+
+  fetch("https://raw.githubusercontent.com/Carrier4133/Gacha-Machine/refs/heads/main/data/items.json")
+    .then(response => {
+      console.log("Fetching items.json...");
+      return response.json();
     })
-    .catch((err) => {
-      logDebug("Failed to load items.json: " + err);
+    .then(data => {
+      items = data;
+      console.log("Items loaded:", items);
+      logDebug("Items loaded successfully!");
+
+      const pullBtn = document.getElementById("pull-button");
+      const multiPullBtn = document.getElementById("multi-pull-button");
+
+      console.log("pullBtn:", pullBtn);
+      console.log("multiPullBtn:", multiPullBtn);
+
+      if (pullBtn) {
+        pullBtn.addEventListener("click", () => {
+          console.log("Pull button clicked");
+          pullItem();
+        });
+      } else {
+        console.error("Pull button not found!");
+      }
+
+      if (multiPullBtn) {
+        multiPullBtn.addEventListener("click", () => {
+          const count = parseInt(document.getElementById("multi-pull-count").value) || 1;
+          console.log(`Multi-pull for ${count} items`);
+          for (let i = 0; i < count; i++) {
+            pullItem();
+          }
+        });
+      } else {
+        console.error("Multi-pull button not found!");
+      }
+    })
+    .catch(error => {
+      console.error("Fetch error:", error);
+      logDebug("Error loading items: " + error);
     });
 
-  document.getElementById("pull-button").addEventListener("click", () => {
-    if (items.length === 0) {
-      alert("No items available to pull.");
-      return;
-    }
-    const randomIndex = Math.floor(Math.random() * items.length);
-    displayItemPulled(items[randomIndex]);
-  });
-
-  document.getElementById("multi-pull-button").addEventListener("click", () => {
-    if (items.length === 0) {
-      alert("No items available to pull.");
-      return;
-    }
-    const count = parseInt(document.getElementById("multi-pull-count").value, 10) || 1;
-    for (let i = 0; i < count; i++) {
-      const randomIndex = Math.floor(Math.random() * items.length);
-      displayItemPulled(items[randomIndex]);
-    }
-  });
+  document.getElementById("debug").textContent = "Script loaded and waiting for items...";
 });
-;
