@@ -118,5 +118,14 @@
 		"images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002602.jpg"],
 		"descriptions": ["Come on. Just follow the instructions! It's just a can of dehydrated water! What's so hard to understand?"]
 	}
-}
+},
+  {
+    "id": "item13",
+    "label": “PeaBob SquareShooter",
+    "categories": ["Sponge", “Plant”],
+    "elements": {
+        "names": ["PeaBob SquareShooter"],
+        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/out-of-these-forgotten-plants-who-deserved-better-the-most-v0-se2ise3cmpyc1.jpg"],
+        "descriptions": ["... Is.... Is this even a plant? Is this a sponge? What is this thing GET IT OUT OF MY SIGHT-"]
+      }
 ]
