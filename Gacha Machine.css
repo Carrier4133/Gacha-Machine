@@ -1,0 +1,144 @@
+/* Gacha Machine.css */
+
+
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  margin: 20px;
+
+}
+
+
+
+#app {
+
+  max-width: 600px;
+
+  margin: 0 auto;
+
+}
+
+
+
+.button-section {
+
+  margin-bottom: 20px;
+
+  position: sticky;
+
+  top: 0;
+
+  background: white;
+
+  padding: 10px 0;
+
+  z-index: 1000;
+
+  border-bottom: 1px solid #ccc;
+
+}
+
+
+
+#random-item {
+
+  text-align: center;
+
+}
+
+
+
+#item-image {
+
+  max-width: 100%;
+
+  height: auto;
+
+  display: block;
+
+  margin: 10px auto 0;
+
+}
+
+
+
+.history,
+
+.collection {
+
+  margin-top: 30px;
+
+}
+
+
+
+.history ul,
+
+.collection ul {
+
+  max-height: 300px;
+
+  overflow-y: auto;
+
+  border: 1px solid #ccc;
+
+  padding: 10px;
+
+  margin: 0;
+
+  list-style: none;
+
+}
+
+
+
+/* General image rule to ensure proportional scaling throughout */
+
+img {
+
+  max-width: 100%;
+
+  height: auto;
+
+  display: block;
+
+  margin: 0 auto;
+
+}
+
+
+
+/* Ensure any images added dynamically to history or collection lists scale properly */
+
+.history img,
+
+.collection img {
+
+  max-width: 100%;
+
+  height: auto;
+
+  display: block;
+
+  margin: 5px auto;
+
+}
+
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+button, input {
+  background-color: inherit;
+  color: inherit;
+  border: 1px solid currentColor;
+}
