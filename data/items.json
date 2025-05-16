@@ -32,7 +32,7 @@
   {
     "id": "item4",
     "label": "[CENSORED]",
-    "categories": ["Mystery"],
+    "categories": ["Mystery", "Abormality", "ALEPH"],
     "elements": {
         "names": ["[CENSORED]"],
         "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/CENSOREDPortrait_1.png"],
