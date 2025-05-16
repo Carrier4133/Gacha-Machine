@@ -1,59 +1,84 @@
 <!doctype html>
+
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Gachapon Machine</title>
-		<link rel="stylesheet" href="css/Gacha Machine.css" />
-	</head>
-	<body>
-		<pre id="debug" style="white-space: pre-wrap; font-family: monospace;">Script didn't run.</pre>
-		<div id="app">
-			<h1>Gachapon Machine</h1>
 
-			<div class="button-section">
-				<button id="pull-button">Pull Item</button>
-				<input
-					type="number"
-					id="multi-pull-count"
-					placeholder="Number of pulls"
-					min="1"
-				/>
-				<button id="multi-pull-button">Pull Multiple</button>
-			</div>
-	<pre id="debug" style="white-space: pre-wrap; font-family: monospace;"></pre>
+<head>
 
-			<div id="random-item">
-				<h2>Item Pulled:</h2>
-				<img
-					id="item-image"
-					src=""
-					alt="Item Image"
-					style="display: none;"
-				/>
-				<p id="item-name"></p>
-				<p id="item-description"></p>
-			</div>
+  <meta charset="UTF-8" />
 
-			<div class="history">
-				<h2>Pull History</h2>
-				<ul id="history-list"></ul>
-			</div>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-			<div class="collection">
-				<h2>
-					Your Collection (
-					<span id="collection-count">0</span>
-					items)
-				</h2>
-				<ul id="collection-list"></ul>
-			</div>
-		</div>
+  <title>Gachapon Machine</title>
 
-		<script src="js/Gacha Machine.js" defer>
-  document.addEventListener("DOMContentLoaded", () => {
-    document.getElementById("debug").textContent = "If you see this, the debug area is working.";
-  });
-</script>
-	</body>
+  <link rel="stylesheet" href="css/Gacha Machine.css" />
+
+</head>
+
+<body>
+
+  <pre id="debug" style="white-space: pre-wrap; font-family: monospace;"></pre>
+
+  <div id="app">
+
+    <h1>Gachapon Machine</h1>
+
+    <div class="button-section">
+
+      <button id="pull-button">Pull Item</button>
+
+      <input type="number" id="multi-pull-count" placeholder="Number of pulls" min="1" />
+
+      <button id="multi-pull-button">Pull Multiple</button>
+
+    </div>
+
+    <div id="random-item">
+
+      <h2>Item Pulled:</h2>
+
+      <div id="item-container"></div> <!-- Only one valid item container -->
+
+    </div>
+
+    <div class="history">
+
+      <h2>Pull History</h2>
+
+      <ul id="history-list"></ul>
+
+    </div>
+
+    <div class="collection">
+
+      <h2>Your Collection (<span id="collection-count">0</span> items)</h2>
+
+      <ul id="collection-list"></ul>
+
+    </div>
+    <div class="options-menu">
+  <label>
+    <input type="checkbox" id="toggle-dark-mode" />
+    Dark Mode
+  </label>
+</div>
+
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const debug = document.getElementById("debug");
+      const pull = document.getElementById("pull-button");
+      if (pull) {
+        debug.textContent = "Pull button found. Event listener should attach!";
+      } else {
+        debug.textContent = "Pull button NOT found!";
+      }
+    });
+  </script>
+
+  <script src="js/Gacha Machine.js" defer></script>
+
+</body>
+
 </html>
+
