@@ -52,7 +52,7 @@
   {
     "id": "item6",
     "label": "Jimbo",
-    "categories": ["Joker"],
+    "categories": ["Joker", "Card", "Balatro"],
     "elements": {
         "names": ["Jimbo"],
         "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002574.png"],
@@ -92,7 +92,7 @@
   {
     "id": "item10",
     "label": "Chicken Jockey",
-    "categories": ["Minecraft"],
+    "categories": ["Minecraft", "Meme"],
     "elements": {
         "names": ["Chicken Jockey"],
         "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/Chicken_Jockey.png"],
