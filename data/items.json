@@ -5,7 +5,7 @@
     "categories": ["Weapons", "Deltarune"],
     "elements":{
         "names": ["Devilsknife"],
-        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/devilsknife.png", "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/devilsknife_red.png"],
+        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/Devilsknife_item.png", "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/Devilsknife_item_red.png"],
         "descriptions": ["Skull-emblazoned scythe-ax. Reduces Rudebuster's cost by 10", "It's called a knife, looks like a scythe but is apparently an axe... why? Because he can do anything probably"]
       }
   },
