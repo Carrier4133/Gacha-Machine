@@ -138,6 +138,17 @@
         "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000003031.png"],
         "descriptions": ["Here Comes Magical Girl!☆"]
       }
+},
+  {
+    "id": "item15",
+    "label": "QiQi",
+    "categories": ["5-Star", "Cryo", "Liyue"],
+    "elements": {
+        "names": ["QiQi"],
+        "images": [""],
+        "descriptions": ["\"I pulled a QiQi...\""]
+      }
 }
+
 
 ]
