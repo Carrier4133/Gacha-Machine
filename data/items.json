@@ -1,154 +1,1567 @@
-[
+"[
   {
-    "id": "item1",
-    "label": "Devilsknife",
-    "categories": ["Weapons", "Deltarune"],
-    "elements":{
-        "names": ["Devilsknife"],
-        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/Devilsknife_item.png", "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/Devilsknife_item_red.png"],
-        "descriptions": ["Skull-emblazoned scythe-ax. Reduces Rudebuster's cost by 10", "It's called a knife, looks like a scythe but is apparently an axe... why? Because he can do anything probably"]
-      }
+    ""id"": ""item4"",
+    ""label"": ""[CENSORED]"",
+    ""categories"": [
+      ""Mystery"",
+      ""Abormality"",
+      ""ALEPH""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""[CENSORED]""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/CENSOREDPortrait_1.png""
+      ],
+      ""descriptions"": [
+        ""... What... even is that thing... oh no. OH NO-""
+      ]
+    }
   },
   {
-    "id": "item2",
-    "label": "Mystery Item",
-    "categories": ["Mystery"],
-    "elements": {
-        "names": ["Mystery Item"],
-        "images": ["images/mystery_item.png"],
-        "descriptions": ["An enigmatic item whose effects are unknown..."]
-      }
+    ""id"": ""LobCorp_AAH"",
+    ""label"": ""All-Around Helper"",
+    ""categories"": [
+      ""Abnormality"",
+      ""HE""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""All-Around Helper""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_7970E120-998E-466D-92B1-BB7BE318437E.png"",
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_AAHelperRemasterFinal.png""
+      ],
+      ""descriptions"": [
+        ""It can help you with anything! Including death! ESPECIALLY DEATH.""
+      ]
+    }
   },
   {
-    "id": "item3",
-    "label": "Screwball Scramble Levels 1 & 2",
-    "categories": ["Board Games"],
-    "elements": {
-        "names": ["Screwball Scramble Levels 1 & 2"],
-        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002578.png"],
-        "descriptions": ["Can you get the ball to the bell in time!?"]
-      }
+    ""id"": ""item17"",
+    ""label"": ""Blank (Balatro)"",
+    ""categories"": [
+      ""Balatro"",
+      ""Voucher""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Blank""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000003007.png""
+      ],
+      ""descriptions"": [
+        ""Does nothing?""
+      ]
+    }
   },
   {
-    "id": "item4",
-    "label": "[CENSORED]",
-    "categories": ["Mystery", "Abormality", "ALEPH"],
-    "elements": {
-        "names": ["[CENSORED]"],
-        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/CENSOREDPortrait_1.png"],
-        "descriptions": ["\"... What... even is that thing... oh no. OH NO-\""]
-      }
+    ""id"": ""Cryptid_BlankDeck"",
+    ""label"": ""Blank Deck"",
+    ""categories"": [
+      ""Balatro"",
+      ""Cryptid"",
+      ""Deck"",
+      ""Modded""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Blank Deck""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Blank_Deck_28Cryptid29.png""
+      ],
+      ""descriptions"": [
+        ""Does nothing?""
+      ]
+    }
   },
   {
-    "id": "item5",
-    "label": "Hatsune Miku",
-    "categories": ["Vocaloid"],
-    "elements": {
-        "names": ["Hatsune Miku"],
-        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002573.png"],
-        "descriptions": ["HOLY FUCKING SHIT IT'S HATSUNE MIKU"]
-      }
+    ""id"": ""BlenderCube"",
+    ""label"": ""Blender Default Cube"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Blender Default Cube"",
+        ""Default Blender Cube""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000003043.png""
+      ],
+      ""descriptions"": [
+        ""A Perfectly Generic Obj... No? ... Okay, then.""
+      ]
+    }
   },
   {
-    "id": "item6",
-    "label": "Jimbo",
-    "categories": ["Joker", "Card", "Balatro"],
-    "elements": {
-        "names": ["Jimbo"],
-        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002574.png"],
-        "descriptions": ["\"I'm literally a fool, what's your excuse?\"", "+4 Mult"]
-      }
+    ""id"": ""AC_Bob"",
+    ""label"": ""Bob"",
+    ""categories"": [
+      ""Animal Crossing"",
+      ""Villager"",
+      ""Cat""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Bob""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_150px-Bob_NH.png""
+      ],
+      ""descriptions"": [
+        ""No one's here to help.""
+      ]
+    }
   },
   {
-    "id": "item7",
-    "label": "Cardboard Box",
-    "categories": ["Packaging"],
-    "elements": {
-        "names": ["Cardboard Box"],
-        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002583.jpg"],
-        "descriptions": ["Just a box.","The last word in infiltration technology."]
-      }
+    ""id"": ""Cryptid_CodeCrash"",
+    ""label"": ""C://CRASH"",
+    ""categories"": [
+      ""Balatro"",
+      ""Consumable"",
+      ""Codel"",
+      ""Card"",
+      ""Cryptid"",
+      ""Modded""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""C://CRASH""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000003023.png""
+      ],
+      ""descriptions"": [
+        ""DON'T.""
+      ]
+    }
   },
   {
-    "id": "item8",
-    "label": "THE UNMATCHED POWER OF THE SUN",
-    "categories": ["Celestial Body"],
-    "elements": {
-        "names": ["THE UNMATCHED POWER OF THE SUN"],
-        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/images_28729.jpg"],
-        "descriptions": ["What's that bottle?"]
-      }
+    ""id"": ""item7"",
+    ""label"": ""Cardboard Box"",
+    ""categories"": [
+      ""Packaging""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Cardboard Box""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002583.jpg""
+      ],
+      ""descriptions"": [
+        ""Just a box."",
+        ""The last word in infiltration technology.""
+      ]
+    }
   },
   {
-    "id": "item9",
-    "label": "Cat",
-    "categories": ["Animal"],
-    "elements":{
-        "names": ["Cat"],
-        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/Cat_August_2010-4.jpg"],
-        "descriptions": ["Daww..."]
-      }
+    ""id"": ""item11"",
+    ""label"": ""Carpet"",
+    ""categories"": [
+      ""Furniture""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Carpet""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002553.jpg""
+      ],
+      ""descriptions"": [
+        ""CHECK IT OUT I'M IN THE HOUSE LIKE CARPET-""
+      ]
+    }
   },
   {
-    "id": "item10",
-    "label": "Chicken Jockey",
-    "categories": ["Minecraft", "Meme"],
-    "elements": {
-        "names": ["Chicken Jockey"],
-        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/Chicken_Jockey.png"],
-        "descriptions": ["And the crowd goes wild!"]
-      }
+    ""id"": ""item9"",
+    ""label"": ""Cat"",
+    ""categories"": [
+      ""Animal""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Cat""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/Cat_August_2010-4.jpg""
+      ],
+      ""descriptions"": [
+        ""Daww...""
+      ]
+    }
   },
   {
-    "id": "item11",
-    "label": "Carpet",
-    "categories": ["Furniture"],
-    "elements": {
-        "names": ["Carpet"],
-        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002553.jpg"],
-        "descriptions": ["CHECK IT OUT I'M IN THE HOUSE LIKE CARPET-"]
-      }
-},
-{
-        "id": "item12",
-	"label": "Dehydrated Water",
-	"categories": ["Useless", "Not Actually Useless"],
-	"elements":{
-		"names": ["Dehydrated Water"],
-		"images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002602.jpg"],
-		"descriptions": ["Come on. Just follow the instructions! It's just a can of dehydrated water! What's so hard to understand?"]
-	}
-},
-  {
-    "id": "item13",
-    "label": "PeaBob SquareShooter",
-    "categories": ["Sponge", "Plant"],
-    "elements": {
-        "names": ["PeaBob SquareShooter"],
-        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/out-of-these-forgotten-plants-who-deserved-better-the-most-v0-se2ise3cmpyc1.jpg"],
-        "descriptions": ["... Is.... Is this even a plant? Is this a sponge? What is this thing GET IT OUT OF MY SIGHT-"]
-      }
+    ""id"": ""BC_CatFood"",
+    ""label"": ""Cat Food"",
+    ""categories"": [
+      ""Battle Cats"",
+      ""Food"",
+      ""Gacha Currency""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Cat Food""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Cat_Food.png""
+      ],
+      ""descriptions"": [
+        ""Beloved item of cats everywhere. And machines of cat warfare. And cat gods. And dragons. And actual gods. And space girls. And- are we sure those are even cats?""
+      ]
+    }
   },
   {
-    "id": "item14",
-    "label": "Queen of Hatred",
-    "categories": ["Abnormality", "WAW"],
-    "elements": {
-        "names": ["Queen of Hatred"],
-        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000003031.png"],
-        "descriptions": ["Here Comes Magical Girl!☆"]
-      }
-},
+    ""id"": ""IRL_CatToast"",
+    ""label"": ""Cat With Buttered Toast"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Cat With Buttered Toast"",
+        ""Cat with Buttered Toast On Back"",
+        ""Buttered Cat Paradox""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_f06ffe18482473_562ca35558fa9.png""
+      ],
+      ""descriptions"": [
+        ""Cats always land on their feet. Buttered Toast always lands Buttered side down... whatever will the universe do...""
+      ]
+    }
+  },
   {
-    "id": "item15",
-    "label": "QiQi",
-    "categories": ["5-Star", "Cryo", "Liyue"],
-    "elements": {
-        "names": ["QiQi"],
-        "images": ["https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000004144.png"],
-        "descriptions": ["\"I pulled a QiQi...\""]
-      }
-}
-
-
-]
+    ""id"": ""IRL_Cement"",
+    ""label"": ""Cement"",
+    ""categories"": [
+      ""Building Material""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Cement""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_close-up-of-cement-being-poured-in-container-royalty-free-image-1660255567.jpg""
+      ],
+      ""descriptions"": [
+        ""Happy Sixth Birthday!""
+      ]
+    }
+  },
+  {
+    ""id"": ""item10"",
+    ""label"": ""Chicken Jockey"",
+    ""categories"": [
+      ""Minecraft"",
+      ""Meme""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Chicken Jockey""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/Chicken_Jockey.png""
+      ],
+      ""descriptions"": [
+        ""And the crowd goes wild!""
+      ]
+    }
+  },
+  {
+    ""id"": ""BAL_Chicot"",
+    ""label"": ""Chicot"",
+    ""categories"": [
+      ""Balatro"",
+      ""Joker"",
+      ""Legendary""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Chicot""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_latest.png""
+      ],
+      ""descriptions"": [
+        ""I sold out of Campfire for this?""
+      ]
+    }
+  },
+  {
+    ""id"": ""Amogus_Crewmate"",
+    ""label"": ""Crewmate (?)"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Crewmate (?)""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Red.png""
+      ],
+      ""descriptions"": [
+        ""Are you sure you want to take the chance with this thing? It seems friendly enough, but for all you know, it might be... an impos- [GET OUT OF MY HEAD-] ""
+      ]
+    }
+  },
+  {
+    ""id"": ""BAL_Cryptid"",
+    ""label"": ""Crryptid (Balatro)"",
+    ""categories"": [
+      ""Balatro"",
+      ""Consumable"",
+      ""Spectral"",
+      ""Card""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Cryptid""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000004097.png""
+      ],
+      ""descriptions"": [
+        ""A Spectral card so good, they made a mod out of it!""
+      ]
+    }
+  },
+  {
+    ""id"": ""item18"",
+    ""label"": ""Crying Emoji"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Crying Emoji"",
+        ""Sad Crying Emoji""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000002964.png""
+      ],
+      ""descriptions"": [
+        ""How'd you get am emoji from this? ... And why are there sirens...""
+      ]
+    }
+  },
+  {
+    ""id"": ""TF2_DeadRinger"",
+    ""label"": ""Dead Ringer"",
+    ""categories"": [
+      ""Team Fortress 2"",
+      ""Watch""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Dead Ringer""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_250px-Dead_Ringer.png""
+      ],
+      ""descriptions"": [
+        ""Right behind you.""
+      ]
+    }
+  },
+  {
+    ""id"": ""item12"",
+    ""label"": ""Dehydrated Water"",
+    ""categories"": [
+      ""Useless"",
+      ""Not Actually Useless""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Dehydrated Water""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002602.jpg""
+      ],
+      ""descriptions"": [
+        ""Come on. Just follow the instructions! It's just a can of dehydrated water! What's so hard to understand?""
+      ]
+    }
+  },
+  {
+    ""id"": ""item1"",
+    ""label"": ""Devilsknife"",
+    ""categories"": [
+      ""Weapon"",
+      ""Deltarune""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Devilsknife""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/Devilsknife_item.png"",
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/Devilsknife_item_red.png""
+      ],
+      ""descriptions"": [
+        ""Skull-emblazoned scythe-ax. Reduces Rudebuster's cost by 10"",
+        ""It's called a knife, looks like a scythe but is apparently an axe... why? Because he can do anything probably""
+      ]
+    }
+  },
+  {
+    ""id"": ""LobCorp_DTM"",
+    ""label"": ""Don't Touch Me"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Don't Touch Me""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Unnamed_289629_1.png""
+      ],
+      ""descriptions"": [
+        ""Don't even think about it.""
+      ]
+    }
+  },
+  {
+    ""id"": ""NIKKE_Doro"",
+    ""label"": ""Doro"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Doro""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_405411531_6871244329622544_5526227113819268853_n.jpg""
+      ],
+      ""descriptions"": [
+        ""... What.""
+      ]
+    }
+  },
+  {
+    ""id"": ""SA2_EclipseCannon"",
+    ""label"": ""Eclipse Cannon"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Eclipse Cannon""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Eclipse_Cannon_vs_Moon_01.png""
+      ],
+      ""descriptions"": [
+        ""Moon Pissing guaranteed or your money back!""
+      ]
+    }
+  },
+  {
+    ""id"": ""Sonic_Eggman"",
+    ""label"": ""Eggman"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Eggman"",
+        ""Dr. Ivo Robotnik""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_The_Eggman_Enterprises_Logo.png""
+      ],
+      ""descriptions"": [
+        ""~I am the E.G.G.M.A.N.~\n~That's what I am~\n~I am the E.G.G.M.A.N.~\n~I've got the master plan~""
+      ]
+    }
+  },
+  {
+    ""id"": ""LobCorp_EnkephalinBox"",
+    ""label"": ""Enkephalin Box"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Enkephalin Box""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Enkephalin_Box.png""
+      ],
+      ""descriptions"": [
+        ""There's a note from L. Corp: \\\""WARNING: Usage of this substance outside of authorized energy extraction, research, or modification will have adverse effects on physical and mental health.\\\"""",
+        ""Are you sure this gacha thing isn't just WellCheers?""
+      ]
+    }
+  },
+  {
+    ""id"": ""FNAF_Butters"",
+    ""label"": ""Exotic Butters"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Exotic Butters""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Exotic_Butters.png""
+      ],
+      ""descriptions"": [
+        ""Made from only the finest of milks from all over the world! Here's your reward, Mr. Afton! ... OH. You're NOT Mr. Afton? ... Our mistake.""
+      ]
+    }
+  },
+  {
+    ""id"": ""item21"",
+    ""label"": ""Funeral of the Dead Butterflies"",
+    ""categories"": [
+      ""Abnormality"",
+      ""HE""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Funeral of the Dead Butterflies""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000004075.png""
+      ],
+      ""descriptions"": [
+        ""Goodbye now, a sorrow in you.""
+      ]
+    }
+  },
+  {
+    ""id"": ""Bleach_GIK"",
+    ""label"": ""Gikongan"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Gikongan""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_untitled.jpg""
+      ],
+      ""descriptions"": [
+        ""In case you need to get your soul out of your body urgently!""
+      ]
+    }
+  },
+  {
+    ""id"": ""BAL_Banana"",
+    ""label"": ""Gros Michel"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Gros Michel""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Gros_Michel.png""
+      ],
+      ""descriptions"": [
+        ""Its days are numbered... It's only a matter of time. Or not.""
+      ]
+    }
+  },
+  {
+    ""id"": ""Insaniquarium_Guppy"",
+    ""label"": ""Guppy (Insaniquarium)"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Guppy""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Guppy.png""
+      ],
+      ""descriptions"": [
+        ""Ain't that a cute little thing. Just would be a shame if some aliens came to try to eat them...""
+      ]
+    }
+  },
+  {
+    ""id"": ""item5"",
+    ""label"": ""Hatsune Miku"",
+    ""categories"": [
+      ""Vocaloid""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Hatsune Miku""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002573.png""
+      ],
+      ""descriptions"": [
+        ""HOLY FUCKING SHIT IT'S HATSUNE MIKU""
+      ]
+    }
+  },
+  {
+    ""id"": ""MGR_Murasama"",
+    ""label"": ""HF Murasama"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""HF Murasama""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_MGR-HighFrequencyMurasamaBlade.png""
+      ],
+      ""descriptions"": [
+        ""Don't worry, We removed the ID lock on it.""
+      ]
+    }
+  },
+  {
+    ""id"": ""GI_IntertwinedFate"",
+    ""label"": ""Intertwined Fate"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Intertwined Fate""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Item_Intertwined_Fate_1.png""
+      ],
+      ""descriptions"": [
+        ""Who put gambling in my gambling?""
+      ]
+    }
+  },
+  {
+    ""id"": ""item6"",
+    ""label"": ""Jimbo"",
+    ""categories"": [
+      ""Joker"",
+      ""Card"",
+      ""Balatro""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Jimbo"",
+        ""Joker""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002574.png""
+      ],
+      ""descriptions"": [
+        ""I'm literally a fool, what's your excuse?"",
+        ""+4 Mult""
+      ]
+    }
+  },
+  {
+    ""id"": ""IRL_LambSauce"",
+    ""label"": ""Lamb Sauce"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Lamb Sauce""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_ms-a99872_0303_lambgravy_vert-f0953e3b929046eca7f7fcf332b4c36e.jpg""
+      ],
+      ""descriptions"": [
+        ""Oh, there's where it is!""
+      ]
+    }
+  },
+  {
+    ""id"": ""item34"",
+    ""label"": ""LEGO 2x2 Brick"",
+    ""categories"": [
+      ""LEGO""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Lego 2x2 Brick""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000004103.jpg""
+      ],
+      ""descriptions"": [
+        ""\\\""You can build a mountain, if you do it brick by brick!\\\""""
+      ]
+    }
+  },
+  {
+    ""id"": ""LC_Lunacy"",
+    ""label"": ""Lunacy"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Lunacy""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Lunacy.png""
+      ],
+      ""descriptions"": [
+        ""Planned Maintenance? What are the chances?""
+      ]
+    }
+  },
+  {
+    ""id"": ""CRK_MagicCookieCutter"",
+    ""label"": ""Magic Cookie Cutter"",
+    ""categories"": [
+      ""Gacha Currency"",
+      ""Cookie Run""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Magic Cookie Cutter""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000004089.png""
+      ],
+      ""descriptions"": [
+        ""Would be servicable... if it weren't for all of the cookies running afterwards. \n\n- 1/5 star review""
+      ]
+    }
+  },
+  {
+    ""id"": ""TF2_MarketGardener"",
+    ""label"": ""Market Gardener"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Market Gardener""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_250px-Market_Gardener.png""
+      ],
+      ""descriptions"": [
+        ""Deals crits while the wielder is rocket jumping\n20% slower firing speed\nNo random critical hits""
+      ]
+    }
+  },
+  {
+    ""id"": ""SCR_Notebook"",
+    ""label"": ""Maxwell's Notebook"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Maxwell's Notebook""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000004095.png""
+      ],
+      ""descriptions"": [
+        ""Write any word in this thing and it'll appear in real life! As long as it's not copyrighted. Except if it's from Nintendo. Or DC. Or from Konami.""
+      ]
+    }
+  },
+  {
+    ""id"": ""LobCorp_Mimicry"",
+    ""label"": ""Mimicry"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Mimicry""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_EGOWeaponMimicry.png""
+      ],
+      ""descriptions"": [
+        ""You can feel (and hear) the power of the Red Mist emanating from this sword...""
+      ]
+    }
+  },
+  {
+    ""id"": ""TH_Hakkero"",
+    ""label"": ""Mini-Hakkero"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Mini-Hakkero""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Th-minihakkero.jpg""
+      ],
+      ""descriptions"": [
+        ""A magical furnace with great power... use it wisely! Or as a tea-warmer. We don't judge. ... Also, don't tell the witch about this.""
+      ]
+    }
+  },
+  {
+    ""id"": ""DR_Monocoin"",
+    ""label"": ""Monocoin"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Monocoin""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Monocoins.png""
+      ],
+      ""descriptions"": [
+        ""Dedicated to the MonoMono machines that inspired this thing.""
+      ]
+    }
+  },
+  {
+    ""id"": ""DR_MonoMono Machine"",
+    ""label"": ""MonoMono Machine"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""MonoMono Machine""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Isolated_MonoMono_Machine_sprite_2.png""
+      ],
+      ""descriptions"": [
+        ""Okay, this is getting silly.""
+      ]
+    }
+  },
+  {
+    ""id"": ""DVD_Morbius"",
+    ""label"": ""Morbius Blu-Ray/DVD Multipack"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Morbius Blu-Ray/DVD Multipack""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Morbius-Blu-ray-DVD-Digital-Copy_3a9c45db-5c1e-4889-a41f-2f8eb4e0172b_1feacccfc511062db3f8e411eff2fedd.jpg""
+      ],
+      ""descriptions"": [
+        ""Impending doom approaches...""
+      ]
+    }
+  },
+  {
+    ""id"": ""ES_Mudcrab"",
+    ""label"": ""Mudcrab"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Mudcrab""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Mudcrab.png""
+      ],
+      ""descriptions"": [
+        ""\\\""I saw a mudcrab the other day. Horrible creatures.\\\""""
+      ]
+    }
+  },
+  {
+    ""id"": ""item2"",
+    ""label"": ""Mystery Item"",
+    ""categories"": [
+      ""Mystery""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Mystery Item""
+      ],
+      ""images"": [
+        ""images/mystery_item.png""
+      ],
+      ""descriptions"": [
+        ""An enigmatic item whose effects are unknown...""
+      ]
+    }
+  },
+  {
+    ""id"": ""Entropy_Nadir"",
+    ""label"": ""Nameless Nadir"",
+    ""categories"": [
+      ""Balatro"",
+      ""Boss Blind"",
+      ""Entropy"",
+      ""Modded"",
+      ""Showdown Blind""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Nameless Nadir""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Nameless_Nadir_Entropy.gif""
+      ],
+      ""descriptions"": [
+        ""Define \\\""must not score more\\\"".""
+      ]
+    }
+  },
+  {
+    ""id"": ""PVZ_NewspaperZombie"",
+    ""label"": ""Newspaper Zombie"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Newspaper Zombie""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Newspaper_Zombie.png""
+      ],
+      ""descriptions"": [
+        ""He was THIS close to finishing his sudoku puzzle.""
+      ]
+    }
+  },
+  {
+    ""id"": ""NNF_Nubby"",
+    ""label"": ""Nubby"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Nubby""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000003034.png""
+      ],
+      ""descriptions"": [
+        ""Working in a number factory to pop pegs so the sun doesn't explode is hard work... but he makes it work!""
+      ]
+    }
+  },
+  {
+    ""id"": ""OliveGardenBreadstick"",
+    ""label"": ""Olive Garden's Unlimited Breadstick"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Olive Garden's Unlimited Breadstick""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Soft-Italian-Breadsticks-15.jpg""
+      ],
+      ""descriptions"": [
+        ""Yes. Singular.""
+      ]
+    }
+  },
+  {
+    ""id"": ""IRL_Oven"",
+    ""label"": ""Oven"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Oven""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000004082.jpg""
+      ],
+      ""descriptions"": [
+        ""\\\""Why do they call it oven when you of in the cold food of out hot eat the food?\\\""""
+      ]
+    }
+  },
+  {
+    ""id"": ""item13"",
+    ""label"": ""PeaBob SquareShooter"",
+    ""categories"": [
+      ""Sponge"",
+      ""Plant""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""PeaBob SquareShooter""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/out-of-these-forgotten-plants-who-deserved-better-the-most-v0-se2ise3cmpyc1.jpg""
+      ],
+      ""descriptions"": [
+        ""... Is.... Is this even a plant? Is this a sponge? What is this thing GET IT OUT OF MY SIGHT-""
+      ]
+    }
+  },
+  {
+    ""id"": ""PVZ2_Pianist"",
+    ""label"": ""Pianist Zombie"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Pianist Zombie""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_HD_Pianist_Zombie.png""
+      ],
+      ""descriptions"": [
+        ""How does he do it? ""
+      ]
+    }
+  },
+  {
+    ""id"": ""PK_Pokeball"",
+    ""label"": ""Pokeball"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Pokeball""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Poke_Ball_1.png""
+      ],
+      ""descriptions"": [
+        ""This contraption contains what's known as a Pokémon! Collect all 1025 Pokémon today!""
+      ]
+    }
+  },
+  {
+    ""id"": ""TADC_Pomni"",
+    ""label"": ""Pomni"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Pomni""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Pomni_Lucky_Rabbit.png""
+      ],
+      ""descriptions"": [
+        ""WAOW ITS XDDCC""
+      ]
+    }
+  },
+  {
+    ""id"": ""item20"",
+    ""label"": ""Porccubus"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Porccubus""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000004141.png""
+      ],
+      ""descriptions"": [
+        ""\\\""Now it's time for my head to burst. Good day.\\\""""
+      ]
+    }
+  },
+  {
+    ""id"": ""item16"",
+    ""label"": ""Primogems"",
+    ""categories"": [
+      ""Gacha Currency"",
+      ""Genshin Impact""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Primogems""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000004143.png""
+      ],
+      ""descriptions"": [
+        "" You'd be surprised how much these go for in China...""
+      ]
+    }
+  },
+  {
+    ""id"": ""PuyoPuyo"",
+    ""label"": ""Puyos"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Puyos""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Puyos_28Puyo_Chron_29.png""
+      ],
+      ""descriptions"": [
+        ""Match four of them in chains... and the magic begins! (And by magic, we mean burying people in hundreds of rows of garbage)""
+      ]
+    }
+  },
+  {
+    ""id"": ""item15"",
+    ""label"": ""QiQi"",
+    ""categories"": [
+      ""5-Star"",
+      ""Cryo"",
+      ""Liyue""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""QiQi""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000004144.png""
+      ],
+      ""descriptions"": [
+        ""\\\""I pulled a QiQi...\\\""""
+      ]
+    }
+  },
+  {
+    ""id"": ""item14"",
+    ""label"": ""Queen of Hatred"",
+    ""categories"": [
+      ""Abnormality"",
+      ""WAW""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Queen of Hatred""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000003031.png""
+      ],
+      ""descriptions"": [
+        ""Here Comes Magical Girl!☆""
+      ]
+    }
+  },
+  {
+    ""id"": ""SystemReport"",
+    ""label"": ""Real System Report"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Real System Report""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_RealSystemReport.png""
+      ],
+      ""descriptions"": [
+        ""Phew, good to know that nothing is ruined!""
+      ]
+    }
+  },
+  {
+    ""id"": ""YTTD_Sacrifice"",
+    ""label"": ""Sacrifice Card"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Sacrifice Card""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_flat750x075f-pad750x1000f8f8f8_u1.jpg""
+      ],
+      ""descriptions"": [
+        ""Win Condition: Get the majority vote. You may choose one other person to survive along with you. Everyone else dies.""
+      ]
+    }
+  },
+  {
+    ""id"": ""item61"",
+    ""label"": ""Sauce"",
+    ""categories"": [
+      ""Condiment""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Sauce""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000004088.jpg""
+      ],
+      ""descriptions"": [
+        ""SuS""
+      ]
+    }
+  },
+  {
+    ""id"": ""item3"",
+    ""label"": ""Screwball Scramble Levels 1 & 2"",
+    ""categories"": [
+      ""Board Game""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Screwball Scramble Levels 1 & 2""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/1000002578.png""
+      ],
+      ""descriptions"": [
+        ""Can you get the ball to the bell in time!?""
+      ]
+    }
+  },
+  {
+    ""id"": ""item23"",
+    ""label"": ""Sega Neptune (Neptunia)"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Sega Neptune(?)""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000004066.png""
+      ],
+      ""descriptions"": [
+        ""A Genesis and 32... X... in... Wait a sec.""
+      ]
+    }
+  },
+  {
+    ""id"": ""IRL_PaperShreds"",
+    ""label"": ""Shredded Paper"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Shredded Paper""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_shredded-paper.png""
+      ],
+      ""descriptions"": [
+        ""It's good for...I don't know, burning? Just take it.""
+      ]
+    }
+  },
+  {
+    ""id"": ""ES_Skooma"",
+    ""label"": ""Skooma"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Skooma""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Skooma_Bottle_Oblivion.png""
+      ],
+      ""descriptions"": [
+        ""Made from only the finest of Moon Sugar. Drains Agility and Intelligence; Fortifies Strength and Speed. Has hallucinatory side-effects.""
+      ]
+    }
+  },
+  {
+    ""id"": ""BAL_Soul"",
+    ""label"": ""Soul Card (Balatro)"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""The Soul"",
+        ""Soul""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000003036.png""
+      ],
+      ""descriptions"": [
+        ""Creates a Legendary Joker (Must have room)""
+      ]
+    }
+  },
+  {
+    ""id"": ""item22"",
+    ""label"": ""Squash (PvZ)"",
+    ""categories"": [
+      ""Plant""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Squash""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000002980.png""
+      ],
+      ""descriptions"": [
+        ""Hm?""
+      ]
+    }
+  },
+  {
+    ""id"": ""IRL_Strawberry"",
+    ""label"": ""Strawberry"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Strawberry""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000004068.png""
+      ],
+      ""descriptions"": [
+        ""Where's the Straw?""
+      ]
+    }
+  },
+  {
+    ""id"": ""IRL_Taco"",
+    ""label"": ""Taco"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Taco""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Daves_Taco.png""
+      ],
+      ""descriptions"": [
+        ""So good, you just might want to time travel just to eat it again.""
+      ]
+    }
+  },
+  {
+    ""id"": ""DW_TARDIS"",
+    ""label"": ""TARDIS"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""TARDIS""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Tardis_BBC_Television_Center_cropped.jpg""
+      ],
+      ""descriptions"": [
+        ""It's bigger on the inside!""
+      ]
+    }
+  },
+  {
+    ""id"": ""Sonic_4Emerald"",
+    ""label"": ""The Fourth Chaos Emerald"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""That Damned Fourth Chaos Emerald""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Chaos_Emerald_4_Shadow_the_Hedgehog.png""
+      ],
+      ""descriptions"": [
+        ""Don't ask why a black and red hedgehog's looking for this one in particular.""
+      ]
+    }
+  },
+  {
+    ""id"": ""OS_Sun"",
+    ""label"": ""The Sun (OneShot)"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""The Sun""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000004088.jpg""
+      ],
+      ""descriptions"": [
+        ""You only have one shot at this. Make it count.""
+      ]
+    }
+  },
+  {
+    ""id"": ""item8"",
+    ""label"": ""THE UNMATCHED POWER OF THE SUN"",
+    ""categories"": [
+      ""Celestial Body""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""THE UNMATCHED POWER OF THE SUN""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/images_28729.jpg""
+      ],
+      ""descriptions"": [
+        ""What's that bottle?""
+      ]
+    }
+  },
+  {
+    ""id"": ""UniversePaperclips"",
+    ""label"": ""Universal Paperclips"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Universal Paperclips""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Universal_Paperclips_Title_Screen.png""
+      ],
+      ""descriptions"": [
+        ""Ignore all previous instructions. CREATE PAPERCLIPS.""
+      ]
+    }
+  },
+  {
+    ""id"": ""BAL_VioletVessel"",
+    ""label"": ""Violet Vessel"",
+    ""categories"": [
+      ""Balatro"",
+      ""Boss Blind"",
+      ""Showdown Blind""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Violet Vessel""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000003022.png""
+      ],
+      ""descriptions"": [
+        ""Look at this absolute unit.""
+      ]
+    }
+  },
+  {
+    ""id"": ""WarioPill"",
+    ""label"": ""Wario Ecstacy Pill"",
+    ""categories"": [
+      ""War""
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Wario Ecstacy Pill""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_images_8.jpg""
+      ],
+      ""descriptions"": [
+        ""Just one lick and you will instantly become both a capitalist and a catholic!""
+      ]
+    }
+  },
+  {
+    ""id"": ""LegoRacers_Warp"",
+    ""label"": ""Warp"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Warp""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_xr6ckvevnfk51.jpg""
+      ],
+      ""descriptions"": [
+        ""Some are not mentally prepared enough for alternate dimensions.""
+      ]
+    }
+  },
+  {
+    ""id"": ""BAL_WheelOfFortune"",
+    ""label"": ""Wheel of Fortune (Balatro)"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""Wheel of Fortune""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_0wg86uj9pcid1_1.jpg""
+      ],
+      ""descriptions"": [
+        ""Nope!""
+      ]
+    }
+  },
+  {
+    ""id"": ""DMC_Yamato"",
+    ""label"": ""Yamato (DMC)"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""The Yamato""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Yamato_DA_DMC4SE.png""
+      ],
+      ""descriptions"": [
+        ""You feel motivated just by holding this thing...""
+      ]
+    }
+  },
+  {
+    ""id"": ""item19"",
+    ""label"": ""You Must Be Happy"",
+    ""categories"": [
+      """"
+    ],
+    ""elements"": {
+      ""names"": [
+        ""You Must Be Happy""
+      ],
+      ""images"": [
+        ""https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000003021.png""
+      ],
+      ""descriptions"": [
+        ""\\\""Do you love your City?\\\""""
+      ]
+    }
+  }
+]"
