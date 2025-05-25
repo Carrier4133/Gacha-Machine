@@ -1743,5 +1743,41 @@
         "Potassium"
       ]
     }
+  },
+  {
+    "id": "UK_Marksman",
+    "label": "Marksman Revolver",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Marksman Revolver"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Marksman.png"
+      ],
+      "descriptions": [
+        "You like coins? Good!\n+FISTFUL OF DOLLARS"
+      ]
+    }
+  },
+  {
+    "id": "UK_Maurice",
+    "label": "Malicious Face",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Malicious Face"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_MaliciousFace_12a.png"
+      ],
+      "descriptions": [
+        "Just call him Maurice."
+      ]
+    }
   }
 ]
