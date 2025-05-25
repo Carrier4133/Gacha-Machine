@@ -1674,74 +1674,74 @@
     }
   },
   {
-    "id": "",
-    "label": "",
+    "id": "DMC_Chair",
+    "label": "Chair of the Storm",
     "categories": [
       ""
     ],
     "elements": {
       "names": [
-        ""
+        "Chair of the Storm"
       ],
       "images": [
-        ""
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_s-l1200_1.jpg"
       ],
       "descriptions": [
-        ""
+        "You feel a light breeze growing stronger and stronger..."
       ]
     }
   },
   {
-    "id": "",
-    "label": "",
+    "id": "BAL_StoneCard",
+    "label": "Stone Card",
     "categories": [
       ""
     ],
     "elements": {
       "names": [
-        ""
+        "Stone Card"
       ],
       "images": [
-        ""
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Stone_enhancer.png"
       ],
       "descriptions": [
-        ""
+        "High Card Best Hand Change My Mind (no seriously, change my mind, I'm being put at gunpoint to add this PLEASE HELP ME A FLU-)"
       ]
     }
   },
   {
-    "id": "",
-    "label": "",
+    "id": "DeadCells_KillingDeck",
+    "label": "Killing Deck",
     "categories": [
       ""
     ],
     "elements": {
       "names": [
-        ""
+        "Killing Deck"
       ],
       "images": [
-        ""
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Killing_Deck_Icon.png"
       ],
       "descriptions": [
-        ""
+        "Using cards as a weapon is quite the gambit..."
       ]
     }
   },
   {
-    "id": "",
-    "label": "",
+    "id": "IRL_Banana",
+    "label": "Banana",
     "categories": [
       ""
     ],
     "elements": {
       "names": [
-        ""
+        "Banana"
       ],
       "images": [
-        ""
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_1000004098.jpg"
       ],
       "descriptions": [
-        ""
+        "Potassium"
       ]
     }
   }
