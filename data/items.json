@@ -1565,3 +1565,25 @@
     }
   }
 ]
+
+/*
+,
+  {
+    "id": "",
+    "label": "",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        ""
+      ],
+      "images": [
+        ""
+      ],
+      "descriptions": [
+        ""
+      ]
+    }
+  }
+*/
