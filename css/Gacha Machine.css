@@ -142,3 +142,9 @@ button, input {
   color: inherit;
   border: 1px solid currentColor;
 }
+
+iframe, video {
+  display: block;
+  max-width: 100%;
+  margin: 10px auto;
+}
