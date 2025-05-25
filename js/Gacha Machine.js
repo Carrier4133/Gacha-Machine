@@ -148,6 +148,18 @@ function pullItem() {
 	updateCollection(item);
 }
 
+document.getElementById("collection-search").addEventListener("input", (event) => {
+  const query = event.target.value.toLowerCase();
+  const items = document.querySelectorAll("#collection-list li");
+
+  items.forEach((li) => {
+    const text = li.textContent.toLowerCase();
+    const matches = text.includes(query);
+    li.style.display = matches ? "block" : "none";
+  });
+});
+
+
 document.addEventListener("DOMContentLoaded", () => {
 	console.log("DOM fully loaded");
 	logDebug("DOM fully loaded. Starting fetch...");
