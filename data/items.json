@@ -1563,5 +1563,186 @@
         "\"Do you love your City?\""
       ]
     }
+  },
+  {
+    "id": "Baku_BonelessPizza",
+    "label": "Boneless Pizza",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Boneless Pizza"
+      ],
+      "images": [
+        "https://youtu.be/ud1JXqGWPvU?si=fbTh5VMcujr9LzRS"
+      ],
+      "descriptions": [
+        "Instructions Unclear: The machine spits out the ingredients to make a pizza: \"If you're so clever, you make the pizza!\""
+      ]
+    }
+  },
+  {
+    "id": "IRL_OmeletteMinusEgg",
+    "label": "Eggless Omelette",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Eggless Omelette"
+      ],
+      "images": [
+        "https://youtu.be/9Ah4tW-k8Ao"
+      ],
+      "descriptions": [
+        "FLASH QUIZ: What does the customer mean with an \"eggless omelette\"?"
+      ]
+    }
+  },
+  {
+    "id": "BalSim_KillBind",
+    "label": "Kill-Bind",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Kill-Bind"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Kill-Bind_BalatroSim.png"
+      ],
+      "descriptions": [
+        "Makes you instantly lose.
+(Why would you use this?)"
+      ]
+    }
+  },
+  {
+    "id": "Ter_Zenith",
+    "label": "Zenith (Terraria)",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Zenith"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Zenith.png"
+      ],
+      "descriptions": [
+        "The Ultimate Sword. Your Journey's End."
+      ]
+    }
+  },
+  {
+    "id": "LobCorp_Train",
+    "label": "Express Train to Hell",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Express Train to Hell"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_ExpressTraintoHellPortrait.png"
+      ],
+      "descriptions": [
+        "Here Comes The Pain Train-"
+      ]
+    }
+  },
+  {
+    "id": "IRL_MeanBeans",
+    "label": "Mean Beans",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Mean Beans"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Rick_s_Picks_Mean_Beans_-_Front_bcafacd6-ded7-4969-a13b-00d9aaf656fd-1.png"
+      ],
+      "descriptions": [
+        "(You feel the eyetwitch of a bunch of disgruntled Puyo Puyo fans crawling up your back.)"
+      ]
+    }
+  },
+  {
+    "id": "",
+    "label": "",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        ""
+      ],
+      "images": [
+        ""
+      ],
+      "descriptions": [
+        ""
+      ]
+    }
+  },
+  {
+    "id": "",
+    "label": "",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        ""
+      ],
+      "images": [
+        ""
+      ],
+      "descriptions": [
+        ""
+      ]
+    }
+  },
+  {
+    "id": "",
+    "label": "",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        ""
+      ],
+      "images": [
+        ""
+      ],
+      "descriptions": [
+        ""
+      ]
+    }
+  },
+  {
+    "id": "",
+    "label": "",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        ""
+      ],
+      "images": [
+        ""
+      ],
+      "descriptions": [
+        ""
+      ]
+    }
   }
 ]
