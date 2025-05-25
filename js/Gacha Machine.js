@@ -20,32 +20,57 @@ function initializeDiscovery(item) {
 }
 
 function displayItem(item, indices) {
-	console.log("Displaying item with indices:", indices);
-	const container = document.getElementById("item-container");
-	container.innerHTML = "";
+  console.log("Displaying item with indices:", indices);
+  const container = document.getElementById("item-container");
+  container.innerHTML = "";
 
-	const img = document.createElement("img");
-	img.src = item.elements.images[indices.imageIndex];
-	img.alt = item.elements.names[indices.nameIndex];
-	img.style.maxWidth = "300px";
-	img.onerror = () => {
-		console.error("Failed to load image:", img.src);
-		img.src = "https://via.placeholder.com/300x300?text=Image+Not+Found";
-	};
+  const mediaUrl = item.elements.images[indices.imageIndex];
+  let mediaElement;
 
-	const name = document.createElement("p");
-	name.textContent = item.elements.names[indices.nameIndex];
+  if (/youtube\.com|youtu\.be/.test(mediaUrl)) {
+    // Extract YouTube video ID from URL
+    const match = mediaUrl.match(/(?:v=|\.be\/)([a-zA-Z0-9_-]+)/);
+    if (match && match[1]) {
+      const videoId = match[1];
+      mediaElement = document.createElement("iframe");
+      mediaElement.width = "300";
+      mediaElement.height = "170";
+      mediaElement.src = `https://www.youtube.com/embed/${videoId}`;
+      mediaElement.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+      mediaElement.allowFullscreen = true;
+    }
+  } else if (mediaUrl.match(/\.(mp4|webm|ogg)$/i)) {
+    mediaElement = document.createElement("video");
+    mediaElement.src = mediaUrl;
+    mediaElement.controls = true;
+    mediaElement.autoplay = true;
+    mediaElement.loop = true;
+    mediaElement.style.maxWidth = "300px";
+  } else {
+    mediaElement = document.createElement("img");
+    mediaElement.src = mediaUrl;
+    mediaElement.alt = item.elements.names[indices.nameIndex];
+    mediaElement.style.maxWidth = "300px";
+    mediaElement.onerror = () => {
+      console.error("Failed to load image:", mediaElement.src);
+      mediaElement.src = "https://via.placeholder.com/300x300?text=Not+Found";
+    };
+  }
 
-	const desc = document.createElement("p");
-	const description = Array.isArray(item.elements.descriptions)
-		? item.elements.descriptions[indices.descIndex]
-		: item.elements.descriptions;
-	desc.textContent = description;
+  const name = document.createElement("p");
+  name.textContent = item.elements.names[indices.nameIndex];
 
-	container.appendChild(img);
-	container.appendChild(name);
-	container.appendChild(desc);
+  const desc = document.createElement("p");
+  const description = Array.isArray(item.elements.descriptions)
+    ? item.elements.descriptions[indices.descIndex]
+    : item.elements.descriptions;
+  desc.textContent = description;
+
+  container.appendChild(mediaElement);
+  container.appendChild(name);
+  container.appendChild(desc);
 }
+
 
 function updateHistory(item, indices) {
 	console.log("Updating history with:", item);
