@@ -1779,5 +1779,203 @@
         "Just call him Maurice."
       ]
     }
+  },
+  {
+    "id": "Fallout_Deathclaw",
+    "label": "Deathclaw",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Deathclaw"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Deathclaw_fo4.png"
+      ],
+      "descriptions": [
+        "The meanest MFers in this side of the wasteland. Also surprisingly sneaky."
+      ]
+    }
+  },
+  {
+    "id": "IRL_FurryBread",
+    "label": "Furry Bread",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Furry Bread"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_furry_bread.png"
+      ],
+      "descriptions": [
+        "It's like french toast, but salty instead of sweet.\n...IT'S NOT MOLDY, YOU IDIOT!"
+      ]
+    }
+  },
+  {
+    "id": "BAL_JollyJoker",
+    "label": "Jolly Joker",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Jolly Joker"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Jolly_Joker.png"
+      ],
+      "descriptions": [
+        "M"
+      ]
+    }
+  },
+  {
+    "id": "Fallout_FatMan",
+    "label": "Fat Man",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Fat Man"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_FO4NW_Nuka-Nuke_launcher_1.png"
+      ],
+      "descriptions": [
+        "For when you want to bring nuclear apocalypse to the nuclear apocalypse."
+      ]
+    }
+  },
+  {
+    "id": "BA_Mika",
+    "label": "Misono Mika",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Misono Mika"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Mika_Portrait.png", "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Mika_Sleeveless_Portrait_1.png"
+      ],
+      "descriptions": [
+        "Okay!☆~ "
+      ]
+    }
+  },
+  {
+    "id": "MineCraft_Creeper",
+    "label": "Creeper",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Creeper"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Creeper_Minecraft.png"
+      ],
+      "descriptions": [
+        "Ah Man-"
+      ]
+    }
+  },
+  {
+    "id": "MCSM_WitherStorm",
+    "label": "Wither Storm",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+       "Wither Storm
+      ],
+      "images": [
+         "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_300px-MCSM_Wither_Storm_Stage_A.png", "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Wither_Storm_in_png_.png"
+      ],
+      "descriptions": [
+        "An evolving mass of devouring darkness... There is no fighting it head-on. All you can do now... is weather the storm."
+      ]
+    }
+  },
+  {
+    "id": "TH_Fumo",
+    "label": "Fumo",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Fumo"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_12.jpg", "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_51wRA9EKYWL__AC_UF8941000_QL80_.jpg"
+      ],
+      "descriptions": [
+        "Look at these little guys. How much could they possibly be w- ... OH NO."
+      ]
+    }
+  },
+  {
+    "id": "IRL_StopSign",
+    "label": "Stop Sign",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Stop Sign"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_il_1080xN_3817892362_qdhi.jpg"
+      ],
+      "descriptions": [
+        "Is it trying to tell us something... or is this thing just a traffic sign now?"
+      ]
+    }
+  },
+  {
+    "id": "GarrysMod_construct",
+    "label": "gm_construct",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "gm_construct"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Gm_construct2024.png"
+      ],
+      "descriptions": [
+        "... Don't ask us how this works."
+      ]
+    }
+  },
+  {
+    "id": "UK_V1",
+    "label": "V1",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "V1"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_V1-hq.png"
+      ],
+      "descriptions": [
+        "GoPro or Nikon? Who's to say."
+      ]
+    }
   }
 ]
