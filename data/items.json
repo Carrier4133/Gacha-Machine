@@ -1977,5 +1977,113 @@
         "GoPro or Nikon? Who's to say."
       ]
     }
+  },
+  {
+    "id": "UK_BigCancerMouse",
+    "label": "Very Cancerous Rodent",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Very Cancerous Rodent"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_VeryCancerousIcon.png"
+      ],
+      "descriptions": [
+        "Oh hey, Civvie!"
+      ]
+    }
+  },
+  {
+    "id": "UK_FleshCube",
+    "label": "Flesh Panopticon",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Flesh Panopticon"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_PanopticonNoBG.png"
+      ],
+      "descriptions": [
+        "... This prison... to hold... ME?"
+      ]
+    }
+  },
+  {
+    "id": "Games_SUPERHOT",
+    "label": "SUPERHOT",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "SUPERHOT.EXE", "SUPERHOT"
+      ],
+      "images": [
+        "https://www.youtube.com/watch?v=HfaPfgnjAhs", "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_images_8~0.jpg"
+      ],
+      "descriptions": [
+        "It's the most innovative shooter I've played in years.", "Time. Only. Moves. When. You. Move."
+      ]
+    }
+  },
+  {
+    "id": "MC_SheepFMachine",
+    "label": "End Rod Machine",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "End Rod Machine"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_cover10.jpg"
+      ],
+      "descriptions": [
+        "The sheep cannot consent. For it is an animal."
+      ]
+    }
+  },
+  {
+    "id": "FO4_PrestonGarvey",
+    "label": "Preston Garvey",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Preston Garvey"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_FO4_PrestonGarvey_Infobox.png"
+      ],
+      "descriptions": [
+        "\"Another settlement needs our help. I'll mark it on your map.\""
+      ]
+    }
+  },
+  {
+    "id": "YGO_Exodia",
+    "label": "Exodia the Forbidden One",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Exodia the Forbidden One"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_600px-ExodiatheForbiddenOne-OP25-EN-UtR-UE.png"
+      ],
+      "descriptions": [
+        "A sealed power... that can be unlocked if you just find the other parts..."
+      ]
+    }
   }
 ]
