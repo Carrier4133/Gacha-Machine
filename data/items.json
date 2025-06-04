@@ -2105,38 +2105,38 @@
     }
   },
   {
-    "id": "",
-    "label": "",
+    "id": "Isaac_TrashFarm",
+    "label": "Trash Farm",
     "categories": [
       ""
     ],
     "elements": {
       "names": [
-        ""
+        "Trash Farm"
       ],
       "images": [
-        ""
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_image.png"
       ],
       "descriptions": [
-        ""
+        "You will in your next time a cow here, you sucker."
       ]
     }
   },
   {
-    "id": "",
-    "label": "",
+    "id": "Isaac_Chaos",
+    "label": "Chaos (Isaac)",
     "categories": [
       ""
     ],
     "elements": {
       "names": [
-        ""
+        "Chaos"
       ],
       "images": [
-        ""
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Collectible_Chaos_icon.png"
       ],
       "descriptions": [
-        ""
+        "Chaos deniers in shambles"
       ]
     }
   }
