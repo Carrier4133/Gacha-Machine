@@ -2085,5 +2085,59 @@
         "A sealed power... that can be unlocked if you just find the other parts..."
       ]
     }
+  },
+  {
+    "id": "Isaac_ReIsaac",
+    "label": "The Isaac of Isaac: ReIsaac",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "The Isaac of Isaac: ReIsaac"
+      ],
+      "images": [
+        "https://www.youtube.com/watch?v=HMR0Aldn6WU"
+      ],
+      "descriptions": [
+        "\"Isaac was simple. And they were both Isaac.\""
+      ]
+    }
+  },
+  {
+    "id": "",
+    "label": "",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        ""
+      ],
+      "images": [
+        ""
+      ],
+      "descriptions": [
+        ""
+      ]
+    }
+  },
+  {
+    "id": "",
+    "label": "",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        ""
+      ],
+      "images": [
+        ""
+      ],
+      "descriptions": [
+        ""
+      ]
+    }
   }
 ]
