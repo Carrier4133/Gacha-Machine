@@ -2139,5 +2139,59 @@
         "Chaos deniers in shambles"
       ]
     }
+  },
+  {
+    "id": "VideoGames_Tetrimino",
+    "label": "Tetrimino",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Tetrimino", "Tetromino"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Tetromino_image.png"
+      ],
+      "descriptions": [
+        "Iron Curtain? What's that? I just made it disappear!"
+      ]
+    }
+  },
+  {
+    "id": "INV_TitleCard",
+    "label": "Invincible Title Card",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Invincible Title Card"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_maxresdefault.jpg"
+      ],
+      "descriptions": [
+        "If he's invincible, then why can I still see him?"
+      ]
+    }
+  },
+  {
+    "id": "IRL?_SpaghettiMonster",
+    "label": "Flying Spaghetti Monster",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Flying Spaghetti Monster"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_FlyingSpaghettiMonster.jpg"
+      ],
+      "descriptions": [
+        "All hail His saucy and meaty goodness!"
+      ]
+    }
   }
 ]
