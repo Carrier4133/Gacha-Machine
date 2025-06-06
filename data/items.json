@@ -2303,74 +2303,74 @@
     }
   },
   {
-    "id": "",
-    "label": "",
+    "id": "DOOM_Cyberdemon",
+    "label": "Cyberdemon",
     "categories": [
       ""
     ],
     "elements": {
       "names": [
-        ""
+        "Cyberdemon"
       ],
       "images": [
-        ""
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Cyberdemon_sprite.png"
       ],
       "descriptions": [
-        ""
+        "To kill a cyberdemon, shoot it until it dies."
       ]
     }
   },
   {
-    "id": "",
-    "label": "",
+    "id": "IRL_Beer_EXE",
+    "label": "Beer.exe",
     "categories": [
       ""
     ],
     "elements": {
       "names": [
-        ""
+        "Beer.exe"
       ],
       "images": [
-        ""
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_GXoOAL-XcAA1hek.jpg"
       ],
       "descriptions": [
-        ""
+        "What do you mean I can just drink the executables?!!"
       ]
     }
   },
   {
-    "id": "",
-    "label": "",
+    "id": "LOB_TodaysShyLook",
+    "label": "Today's Shy Look",
     "categories": [
       ""
     ],
     "elements": {
       "names": [
-        ""
+        "Today's Shy Look"
       ],
       "images": [
-        ""
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Todays_Shy_Crop.png"
       ],
       "descriptions": [
-        ""
+        "Good luck. He's quite fickle.", "Free +2 power? Why not!"
       ]
     }
   },
   {
-    "id": "",
-    "label": "",
+    "id": "IRL_You",
+    "label": "You",
     "categories": [
       ""
     ],
     "elements": {
       "names": [
-        ""
+        "You"
       ],
       "images": [
         ""
       ],
       "descriptions": [
-        ""
+        "That's right. You pulled yourself. NOW GET BACK IN."
       ]
     }
   },
