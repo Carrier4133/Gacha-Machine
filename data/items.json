@@ -2211,5 +2211,59 @@
         "The master and core of the world."
       ]
     }
+  },
+  {
+    "id": "",
+    "label": "Feedbacker",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Feedbacker"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Feedbacker_on_TranspBG.png"
+      ],
+      "descriptions": [
+        "No one tell anyone where this arm was stolen taken from.\nFast punch with decent damage.\nCan parry projectile attacks, including shotgun shots and coins."
+      ]
+    }
+  },
+  {
+    "id": "SF_Hadouken",
+    "label": "Hadouken",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Hadouken"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Ryu-hadoken-artwork.png"
+      ],
+      "descriptions": [
+        "[the machine decks you with a point blank concussive blast from arms it has, apparently?]"
+      ]
+    }
+  },
+  {
+    "id": "IRL_Balloons",
+    "label": "Balloons",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Balloons"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_colourful-helium-balloons-white-background_1308-18056.jpg"
+      ],
+      "descriptions": [
+        "Hang on. Because it's only up from here."
+      ]
+    }
   }
 ]
