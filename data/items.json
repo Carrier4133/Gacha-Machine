@@ -2193,5 +2193,23 @@
         "All hail His saucy and meaty goodness!"
       ]
     }
+  },
+  {
+    "id": "Terraria_WallOfFlesh",
+    "label": "Wall of Flesh",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Wall of Flesh"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Wall_of_Flesh.gif", "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_qwmaq5fmy7c61.png"
+      ],
+      "descriptions": [
+        "The master and core of the world."
+      ]
+    }
   }
 ]
