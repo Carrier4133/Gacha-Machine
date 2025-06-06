@@ -2265,5 +2265,23 @@
         "Hang on. Because it's only up from here."
       ]
     }
+  },
+  {
+    "id": "UK_Earthmover",
+    "label": "Earthmover",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Earthmover"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_200px-Earthmover_hq.png", "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Earthmover_Moment.png"
+      ],
+      "descriptions": [
+        "These machines were invincible to each other... but destructive to everything else... in the end... it was a war without reason."
+      ]
+    }
   }
 ]
