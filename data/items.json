@@ -2375,17 +2375,35 @@
     }
   },
   {
-    "id": "",
+    "id": "LOB_PunishingBird",
+    "label": "Punishing Bird",
+    "categories": [
+      ""
+    ],
+    "elements": {
+      "names": [
+        "Punishing Bird"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_PunishingBirdPortrait_1.png"
+      ],
+      "descriptions": [
+        ""
+      ]
+    }
+  },
+  {
+    "id": "LOB_JudgementBird",
     "label": "",
     "categories": [
       ""
     ],
     "elements": {
       "names": [
-        ""
+        "Judgement Bird"
       ],
       "images": [
-        ""
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_BirdofJudgementPortrait.png"
       ],
       "descriptions": [
         ""
@@ -2400,28 +2418,10 @@
     ],
     "elements": {
       "names": [
-        ""
+        "Sandworm"
       ],
       "images": [
-        ""
-      ],
-      "descriptions": [
-        ""
-      ]
-    }
-  },
-  {
-    "id": "",
-    "label": "",
-    "categories": [
-      ""
-    ],
-    "elements": {
-      "names": [
-        ""
-      ],
-      "images": [
-        ""
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Sandworm_heretics.jpg", "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Dune_2021-Sandworm.jpg", "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_2WJ2D57.jpg"
       ],
       "descriptions": [
         ""
