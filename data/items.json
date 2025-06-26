@@ -80,7 +80,7 @@
         "Abnormality"
       ],
       "theme": [
-        "ALEPH, Mystery"
+        "ALEPH", "Mystery"
       ],
       "rarity": [
         "Misc."
@@ -515,7 +515,7 @@
         "Animal Crossing"
       ],
       "type": [
-        "Villager, Cat"
+        "Villager", "Cat"
       ],
       "theme": [
         "Misc."
@@ -811,7 +811,7 @@
         "Misc."
       ],
       "type": [
-        "Furniture, Reference"
+        "Furniture", "Reference"
       ],
       "theme": [
         "Deltarune"
@@ -869,7 +869,7 @@
         "The Battle Cats"
       ],
       "type": [
-        "Food, Gacha Currency"
+        "Food", "Gacha Currency"
       ],
       "theme": [
         "Misc."
@@ -4330,7 +4330,7 @@
         "Misc."
       ],
       "type": [
-        "Plant, Sponge"
+        "Plant", "Sponge"
       ],
       "theme": [
         "Fusion"
@@ -6096,7 +6096,7 @@
         "Misc."
       ],
       "type": [
-        "Celestial Body, Meme"
+        "Celestial Body", "Meme"
       ],
       "theme": [
         "Misc."
@@ -6446,7 +6446,7 @@
         "Misc."
       ],
       "type": [
-        "Pill, Drug"
+        "Pill", "Drug"
       ],
       "theme": [
         "Wario"
