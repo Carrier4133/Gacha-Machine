@@ -1,164 +1,258 @@
-/* Gacha Machine.css */
-
-
-
+/* --- Base Styles --- */
 body {
-
+  background-color: #ffffff;
+  color: #000000;
   font-family: Arial, sans-serif;
-
-  margin: 20px;
-
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.4s, color 0.4s;
 }
-
-
 
 #app {
-
-  max-width: 600px;
-
+  max-width: 800px;
   margin: 0 auto;
-
+  padding: 24px 8px 48px 8px;
 }
 
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #eee;
+  margin-bottom: 1.5rem;
+}
 
+.theme-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255,255,255,0.9);
+  padding: 8px 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 1.5rem 1rem;
+  margin-bottom: 1.5rem;
+}
 
 .button-section {
-
-  margin-bottom: 20px;
-
-  position: sticky;
-
-  top: 0;
-
-  background: white;
-
-  padding: 10px 0;
-
-  z-index: 1000;
-
-  border-bottom: 1px solid #ccc;
-
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
+button, input[type="number"], input[type="text"], select {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  background: #f9f9f9;
+  color: inherit;
+  margin: 0.25rem 0;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+button {
+  cursor: pointer;
+  font-weight: 600;
+  background: #eaeaea;
+  border: 1px solid #bbb;
+}
+button:hover, button:focus {
+  background: #d6d6d6;
+  border-color: #888;
+}
 
+input[type="file"] {
+  padding: 0.25rem 0;
+}
+
+.collection-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
 
 #random-item {
-
   text-align: center;
-
 }
 
-
-
-#item-image {
-
-  max-width: 100%;
-
-  height: auto;
-
+#item-container img, #item-container iframe, #item-container video {
+  max-width: 320px;
+  margin: 0.5rem auto;
   display: block;
-
-  margin: 10px auto 0;
-
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
 
-
-
-.history,
-
-.collection {
-
-  margin-top: 30px;
-
-}
-
-
-
-.history ul,
-
-.collection ul {
-
+.history ul, .collection ul {
   max-height: 300px;
-
   overflow-y: auto;
-
   border: 1px solid #ccc;
-
   padding: 10px;
-
   margin: 0;
-
   list-style: none;
-
+  background: #fafafa;
+  border-radius: 8px;
 }
 
+.history img, .collection img {
+  max-width: 100px;
+  border-radius: 6px;
+  margin: 0.25rem auto;
+}
 
+.collection-filters, #category-filter-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: stretch;
+}
 
-/* General image rule to ensure proportional scaling throughout */
-
-img {
-
-  max-width: 100%;
-
-  height: auto;
-
-  display: block;
-
+#collection-search, #category-search-keyword {
+  width: 100%;
+  max-width: 320px;
   margin: 0 auto;
-
 }
 
-
-
-/* Ensure any images added dynamically to history or collection lists scale properly */
-
-.history img,
-
-.collection img {
-
-  max-width: 100%;
-
-  height: auto;
-
-  display: block;
-
-  margin: 5px auto;
-
+/* --- Theme Styles --- */
+body.theme-fantasy {
+  background-color: #2b1d0e;
+  color: #e6e1d3;
+  font-family: 'Cinzel', serif;
 }
-
-body {
-  background-color: white;
-  color: black;
-  transition: background-color 0.3s, color 0.3s;
+body.theme-collection {
+  background-color: #f0e6d6;
+  color: #2d2d2d;
+  font-family: 'Permanent Marker', cursive;
 }
-
-body.dark-mode {
+body.theme-casino {
+  background-color: #301934;
+  color: #ffcc00;
+  font-family: 'Luckiest Guy', cursive;
+}
+body.theme-neon {
+  background-color: #0d0221;
+  color: #39ff14;
+  font-family: 'Orbitron', sans-serif;
+}
+body.theme-retro {
+  background-color: #000000;
+  color: #00ff00;
+  font-family: 'VT323', monospace;
+}
+body.theme-cyber {
+  background-color: #1a1a1a;
+  color: #ff00ff;
+  font-family: 'Share Tech Mono', monospace;
+}
+body.theme-vaporwave {
+  background-color: #ffb6c1;
+  color: #8a2be2;
+  font-family: 'Comic Neue', cursive;
+}
+body.theme-minimal {
+  background-color: #ffffff;
+  color: #111111;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+body.theme-dark {
   background-color: #121212;
-  color: #f1f1f1;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Arial, sans-serif;
 }
 
-button, input {
-  background-color: inherit;
+body.theme-dark .card,
+body.theme-dark .theme-selector {
+  background: #232323;
+  color: #e0e0e0;
+  border-color: #333;
+}
+body.theme-dark button, body.theme-dark input, body.theme-dark select {
+  background: #232323;
+  color: #e0e0e0;
+  border: 1px solid #555;
+}
+body.theme-dark .history ul, body.theme-dark .collection ul {
+  background: #181818;
+  border: 1px solid #333;
+}
+
+/* Card backgrounds for other themes */
+body[class*="theme-"] .card,
+body[class*="theme-"] .theme-selector {
+  background: rgba(255,255,255,0.92);
   color: inherit;
-  border: 1px solid currentColor;
+  border: 1px solid #e0e0e0;
+}
+body.theme-neon .card, body.theme-neon .theme-selector {
+  background: #181818;
+  color: #39ff14;
+  border: 1px solid #39ff14;
+}
+body.theme-casino .card, body.theme-casino .theme-selector {
+  background: #3a1c4a;
+  color: #ffcc00;
+  border: 1px solid #ffcc00;
+}
+body.theme-retro .card, body.theme-retro .theme-selector {
+  background: #111;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+}
+body.theme-cyber .card, body.theme-cyber .theme-selector {
+  background: #222;
+  color: #ff00ff;
+  border: 1px solid #ff00ff;
+}
+body.theme-vaporwave .card, body.theme-vaporwave .theme-selector {
+  background: #ffe4ec;
+  color: #8a2be2;
+  border: 1px solid #8a2be2;
+}
+body.theme-collection .card, body.theme-collection .theme-selector {
+  background: #fffbe6;
+  color: #2d2d2d;
+  border: 1px solid #e0c97f;
+}
+body.theme-fantasy .card, body.theme-fantasy .theme-selector {
+  background: #3d2a13;
+  color: #e6e1d3;
+  border: 1px solid #bfa76f;
 }
 
-iframe, video {
-  display: block;
-  max-width: 100%;
-  margin: 10px auto;
+/* Responsive */
+@media (max-width: 700px) {
+  #app {
+    padding: 8px 2px 32px 2px;
+  }
+  .main-header {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+  .card {
+    padding: 1rem 0.5rem;
+  }
 }
 
-.collection-filters {
-  margin-bottom: 15px;
+/* Game mode menu and slots styling */
+#game-mode-menu button {
+  margin: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+#slots-reel {
+  letter-spacing: 1rem;
   text-align: center;
 }
 
-#collection-search {
-  padding: 6px 10px;
-  font-size: 1rem;
-  width: 80%;
-  max-width: 300px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}

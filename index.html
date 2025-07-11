@@ -1,90 +1,81 @@
 <!doctype html>
-
 <html lang="en">
-
 <head>
-
-  <meta charset="UTF-8" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>Gachapon Machine</title>
-
-  <link rel="stylesheet" href="css/Gacha Machine.css" />
-
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Gachapon Machine</title>
+	<link rel="stylesheet" href="css/Gacha Machine.css" />
 </head>
-
 <body>
-
-  <pre id="debug" style="white-space: pre-wrap; font-family: monospace;"></pre>
-
-  <div id="app">
-
-    <h1>Gachapon Machine</h1>
-
-    <div class="button-section">
-
-      <button id="pull-button">Pull Item</button>
-
-      <input type="number" id="multi-pull-count" placeholder="Number of pulls" min="1" />
-
-      <button id="multi-pull-button">Pull Multiple</button>
-
-    </div>
-
-    <div id="random-item">
-
-      <h2>Item Pulled:</h2>
-
-      <div id="item-container"></div> <!-- Only one valid item container -->
-
-    </div>
-
-    <div class="history">
-
-      <h2>Pull History</h2>
-
-      <ul id="history-list"></ul>
-
-    </div>
-<div class="collection-filters">
-  <input type="text" id="collection-search" placeholder="Search collection..." />
-  <select id="collection-category-filter">
-    <option value="">All Categories</option>
-    <!-- Options will be added dynamically -->
-  </select>
-</div>
-    <div class="collection">
-
-      <h2>Your Collection (<span id="collection-count">0</span> items)</h2>
-
-      <ul id="collection-list"></ul>
-
-    </div>
-    <div class="options-menu">
-  <label>
-    <input type="checkbox" id="toggle-dark-mode" />
-    Dark Mode
-  </label>
-</div>
-
-  </div>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const debug = document.getElementById("debug");
-      const pull = document.getElementById("pull-button");
-      if (pull) {
-        debug.textContent = "Pull button found. Event listener should attach!";
-      } else {
-        debug.textContent = "Pull button NOT found!";
-      }
-    });
-  </script>
-
-  <script src="js/Gacha Machine.js" defer></script>
-
+	<pre id="debug" style="white-space: pre-wrap; font-family: monospace;"></pre>
+	<div id="app">
+		<header class="main-header">
+			<h1>Gachapon Machine</h1>
+			<div class="theme-selector">
+				<label for="theme-selector">Theme:</label>
+				<select id="theme-selector">
+					<option value="fantasy">Fantasy TCG</option>
+					<option value="collection">Old School Collection</option>
+					<option value="casino">Totally Not Gambling</option>
+					<option value="neon">Neon Arcade</option>
+					<option value="retro">CRT Retro</option>
+					<option value="cyber">Cyberpunk Grid</option>
+					<option value="vaporwave">Vaporwave</option>
+					<option value="minimal">Minimal Light</option>
+					<option value="dark">Dark</option>
+				</select>
+			</div>
+		</header>
+		<main>
+			<section class="controls card">
+				<div class="button-section">
+					<button id="pull-button">Pull Item</button>
+					<input type="number" id="multi-pull-count" placeholder="Number of pulls" min="1" />
+					<button id="multi-pull-button">Pull Multiple</button>
+				</div>
+			</section>
+			<section id="random-item" class="card">
+				<h2>Item Pulled:</h2>
+				<div id="item-container"></div>
+			</section>
+			<section class="history card">
+				<h2>Pull History</h2>
+				<ul id="history-list"></ul>
+			</section>
+			<section class="collection-filters card">
+				<input type="text" id="collection-search" placeholder="Search collection..." />
+				<select id="collection-category-filter">
+					<option value="">All Categories</option>
+				</select>
+			</section>
+			<section id="category-filter-wrapper" class="card">
+				<h3>Filter Collection</h3>
+				<input type="text" id="category-search-keyword" placeholder="Search category keywords..." style="margin-bottom: 8px; width: 100%;" />
+				<div id="category-filters"></div>
+			</section>
+			<section class="collection card">
+				<h2>Your Collection (<span id="collection-count">0</span> items)</h2>
+				<p>Total Pulls: <span id="pull-count">0</span></p>
+				<ul id="collection-list"></ul>
+				<div class="collection-actions">
+					<button id="clear-collection-button">Clear Collection</button>
+					<button id="download-collection">Download Collection</button>
+					<input type="file" id="upload-collection" accept=".json" />
+					<button id="reset-everything-button">Reset Everything</button>
+				</div>
+			</section>
+			<section id="game-mode-menu" class="card">
+				<h3>Play a Game Mode</h3>
+				<button data-mode="roguelike">Roguelike</button>
+				<button data-mode="slots">Slot Machine</button>
+				<button data-mode="idle">Idle Mode</button>
+			</section>
+			<section id="game-mode-container" class="card"></section>
+			<section id="neko-toggle-container" class="card" style="display: none;">
+				<label><input type="checkbox" id="neko-toggle" /> Enable Neko Follower</label>
+			</section>
+		</main>
+	</div>
+	<script src="js/Gacha Machine.js" defer></script>
 </body>
-
 </html>
-
