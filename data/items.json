@@ -9925,5 +9925,969 @@
         "Misc."
       ]
     }
+  },
+  {
+    "id": "wing-gaster",
+    "label": "Wing Gaster",
+    "elements": {
+      "names": [
+        "Wing Gaster!"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_GChMhRRWQAAewpD.png"
+      ],
+      "descriptions": [
+        "The royal scientist- AHH"
+      ]
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "an-urchin-with-a-fondness-for-cowls-and-capes",
+    "label": "An Urchin with a Fondness for Cowls and Capes",
+    "elements": {
+      "names": [
+        "An Urchin with a Fondness for Cowls and Capes"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Urchinmaster.png"
+      ],
+      "descriptions": [
+        "She was once Mr Dinners. She will not be again."
+      ]
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "rockstar-freddy",
+    "label": "Rockstar Freddy",
+    "elements": {
+      "names": [
+        "Rockstar Freddy"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_FFPS_Rockstar_Freddy_Model.jpg"
+      ],
+      "descriptions": [
+        "Please deposit 5 coins."
+      ]
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "a-can-t-of-coke",
+    "label": "A Can't Of Coke",
+    "elements": {
+      "names": [
+        "A Can't Of Coke"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_IMG_20250304_044027.jpg"
+      ],
+      "descriptions": [
+        "Unopenable."
+      ]
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "kel-nuke",
+    "label": "Kel Nuke",
+    "elements": {
+      "names": [
+        "Kel Nuke"
+      ],
+      "images": [
+        "https://youtu.be/kKbKCbTTy18"
+      ],
+      "descriptions": [
+        "Note: This is just a basketball being thrown at you in Headspace."
+      ]
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "scp-682",
+    "label": "SCP-682",
+    "elements": {
+      "names": [
+        "SCP-682"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_monster8editub9-new.jpg"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "dee-dee-ucn",
+    "label": "Dee-Dee (UCN)",
+    "elements": {
+      "names": [
+        "Dee-Dee"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Dee-Dee_Character_Spawn.gif"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "spinda",
+    "label": "Spinda",
+    "elements": {
+      "names": [
+        "Spinda"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_0327Spinda.png"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "stand-arrow",
+    "label": "Stand Arrow",
+    "elements": {
+      "names": [
+        "Stand Arrow"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_StandArrowEncImage.jpg"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "golden-banana",
+    "label": "Golden Banana",
+    "elements": {
+      "names": [
+        "Golden Banana"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_GoldenBanana.jpg"
+      ],
+      "descriptions": [
+        "Oh, Banana!"
+      ]
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "abstract-card",
+    "label": "Abstract Card",
+    "elements": {
+      "names": [
+        "Abstract Card"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Abstract_Card_Cryptid.jpg"
+      ],
+      "descriptions": [
+        "Remember. You're here forever.",
+        "https://youtu.be/H-AT42lYGBg"
+      ]
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "lopunny",
+    "label": "Lopunny",
+    "elements": {
+      "names": [
+        "Lopunny"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_800px-0428Lopunny.jpg"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "madagascar",
+    "label": "Madagascar",
+    "elements": {
+      "names": [
+        "Madagascar"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Madagascar_centered_orthographic_projection_svg.jpg"
+      ],
+      "descriptions": [
+        "Shut down everything."
+      ]
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "ball-ball-ball",
+    "label": "Ball-Ball Ball",
+    "elements": {
+      "names": [
+        "Ball-Ball Ball"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_TAGG4025.png",
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_do-you-think-this-is-from-episode-5-or-a-future-episode-v0-zljiu3wvnexe1.png"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "boredom",
+    "label": "Boredom",
+    "elements": {
+      "names": [
+        "Boredom"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Boredom_Cryptid.png"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "death-note",
+    "label": "Death Note",
+    "elements": {
+      "names": [
+        "Death Note"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Death_Note_Book_svg.jpg"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "stupid-burger",
+    "label": "Stupid Burger",
+    "elements": {
+      "names": [
+        "Stupid Burger"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_The_Stupid_Burger.png"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "voltron",
+    "label": "Voltron",
+    "elements": {
+      "names": [
+        "Voltron"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_71LIxydybcL.jpg"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "r-zone",
+    "label": "R-Zone",
+    "elements": {
+      "names": [
+        "R-Zone"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Tiger-RZone-Headset.jpg"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "virtual-boy",
+    "label": "Virtual Boy",
+    "elements": {
+      "names": [
+        "Virtual Boy"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_images_40.jpg"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "evil-wii",
+    "label": "Evil Wii",
+    "elements": {
+      "names": [
+        "Evil Wii"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_IMG_0417.png"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "the-idol",
+    "label": "The Idol",
+    "elements": {
+      "names": [
+        "The Idol"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_images_34.jpg",
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_The_Idol_Retexture_Aikoyori_Paint_Job.jpg"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "withered-foxy-jumpscare",
+    "label": "Withered Foxy Jumpscare",
+    "elements": {
+      "names": [
+        "Withered Foxy Jumpscare"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_deepfriedwoomy.gif"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "chao",
+    "label": "Chao",
+    "elements": {
+      "names": [
+        "Chao"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_SonicBlitzChaoRender.jpg"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "coughing-baby",
+    "label": "Coughing Baby",
+    "elements": {
+      "names": [
+        "Coughing Baby"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Baby_Coughing.jpg"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "hydrogen-bomb",
+    "label": "Hydrogen Bomb",
+    "elements": {
+      "names": [
+        "Hydrogen Bomb"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_87507637_gettyimages-486157800.jpg"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "the-ol-jitterbug",
+    "label": "The Ol' Jitterbug",
+    "elements": {
+      "names": [
+        "The Ol' Jitterbug"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_jitterbug-deltarune.gif"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "pizzaface",
+    "label": "Pizzaface",
+    "elements": {
+      "names": [
+        "Pizzaface"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Pizzafacenew.gif"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "jenny-everywhere",
+    "label": "Jenny Everywhere",
+    "elements": {
+      "names": [
+        "Jenny Everywhere"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_jenny_everywhere_colour.png"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "rules-card",
+    "label": "Rules Card",
+    "elements": {
+      "names": [
+        "Rules Card"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Rules_Card.png"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "explosion-gif",
+    "label": "Explosion.gif",
+    "elements": {
+      "names": [
+        "Explosion.gif"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_boom-explosion.gif"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "stupid-sauce",
+    "label": "Stupid Sauce",
+    "elements": {
+      "names": [
+        "Stupid Sauce"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Stupid_Sauce.png"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "labubu",
+    "label": "Labubu",
+    "elements": {
+      "names": [
+        "Labubu"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Pop_Mart_Labubu_The_Monsters_Exciting_Macaron.jpg"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "aller-ghidorah",
+    "label": "Aller-Ghidorah",
+    "elements": {
+      "names": [
+        "Aller-Ghidorah"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_Tumblr_od9wmnlMhV1qcqjsdo1_500.jpg"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
+  },
+  {
+    "id": "n24",
+    "label": "N24",
+    "elements": {
+      "names": [
+        "N25"
+      ],
+      "images": [
+        "https://imagehosting.troublecube.net/cpg/albums/userpics/10007/55/thumb_images_52.jpg"
+      ],
+      "descriptions": []
+    },
+    "categories": {
+      "origin": [
+        "Misc."
+      ],
+      "type": [
+        "Misc."
+      ],
+      "theme": [
+        "Misc."
+      ],
+      "rarity": [
+        "Misc."
+      ]
+    }
   }
 ]
